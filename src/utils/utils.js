@@ -1,0 +1,13 @@
+export {default as funny_1} from "../assets/images/fp_1.jpeg";
+export {default as funny_2} from "../assets/images/fp_2.jpeg";
+export {default as funny_3} from "../assets/images/fp_3.jpeg";
+export {default as funny_4} from "../assets/images/fp_4.webp";
+export {default as funny_5} from "../assets/images/fp_5.jpeg";
+export {default as funny_6} from "../assets/images/fp_6.jpeg";
+export {default as funny_7} from "../assets/images/fp_7.jpeg";
+export {default as funny_8} from "../assets/images/fp_8.webp";
+export {default as funny_9} from "../assets/images/fp_9.jpeg";
+export {default as funny_10} from "../assets/images/fp_10.webp";
+export {default as funny_11} from "../assets/images/fp_11.jpeg";
+export {default as funny_12} from "../assets/images/fp_12.webp";
+export {default as funny_13} from "../assets/images/fp_13.jpeg";

@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import useFetchJoke from "./UseFetchJoke/useFetchJoke";
+import LaughingImgs from "./LaughingImgs/LaughingImgs";
 
 function App() {
+  const [joke, getNewJoke, img] = useFetchJoke();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <header>Dad Jokes Custom Hook</header>
+        <div className="joke">
+          <p>{joke}</p>
+        </div>
+        <button className="new_joke" onClick={getNewJoke}>
+          Get a new one !!
+        </button>
+      </div>
+
+      <div>
+        <LaughingImgs imgNumber={img} />
+      </div>
     </div>
   );
 }
